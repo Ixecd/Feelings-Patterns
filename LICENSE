@@ -1,21 +1,75 @@
-MIT License
+# Feelings-Patterns License
 
-Copyright (c) 2026 Ixecd
+This repository contains the official pattern library for Feelings.
+It includes both creative content (patterns) and tooling code,
+licensed under different terms.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Patterns (CC BY-SA 4.0)
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+All pattern files, including but not limited to:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- Pattern definitions (`*.json`, `*.yaml`)
+- Pattern narrations and descriptions (`*.md`)
+- Audio, visual, and haptic resources
+- Mixing structure definitions
+
+Are licensed under **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
+
+See [LICENSE-PATTERNS](LICENSE-PATTERNS) for full text.
+
+Summary:
+- You are free to share and adapt the patterns
+- You must give appropriate credit to the original creator
+- Derivative patterns must be licensed under the same CC BY-SA 4.0
+- This ensures patterns stay in the open ecosystem and cannot be privatized
+
+## Tooling (MIT)
+
+All tooling code, including but not limited to:
+
+- Validation scripts (`scripts/validate/`)
+- Build and packaging tools (`scripts/build/`)
+- CI/CD configurations
+- Test suites (`tests/`)
+- Example code snippets
+
+Are licensed under the **MIT License**.
+
+See [LICENSE-TOOLS](LICENSE-TOOLS) for full text.
+
+Summary:
+- You are free to use, copy, modify, and distribute the tooling
+- Commercial use is permitted
+- Must include the original copyright notice
+
+## What Counts as a Pattern vs Tooling
+
+**Patterns** are the creative, experiential content of Feelings:
+what users actually feel. These are protected by copyleft (CC BY-SA 4.0)
+to preserve the open ecosystem.
+
+**Tooling** is the infrastructure that processes, validates, and
+packages patterns. These are under MIT to maximize ecosystem adoption.
+
+When in doubt, the file's location in the repository indicates its type:
+- `patterns/` — pattern content (CC BY-SA 4.0)
+- `scripts/`, `tools/`, `tests/` — tooling (MIT)
+
+## Third-party Content
+
+Any third-party content retains its original license as noted
+in the respective files or directories.
+
+## Trademark
+
+"Feelings" as a project name and associated brand assets are
+not covered by the above licenses. See the main Feelings repository's
+[Feelings-PROTOCOL.md](https://github.com/Ixecd/Feelings/blob/main/Feelings-PROTOCOL.md)
+for trademark terms.
+
+Derivative pattern libraries must not use the name "Feelings-Patterns"
+or claim to be the official pattern library.
+
+---
+
+Copyright (c) 2026 qc (Ixecd) and pattern creators
