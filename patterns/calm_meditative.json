@@ -1,0 +1,7 @@
+{
+  "name": "calm_meditative",
+  "class": "core",
+  "max_ratio": 1.0,
+  "dimension": "emotional",
+  "sandbox_response": "neutral"
+}

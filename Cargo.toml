@@ -1,0 +1,14 @@
+[package]
+name = "feelings-patterns"
+version = "0.1.0"
+edition = "2021"
+description = "Feelings-Patterns — 社区原子库。Registry 条目 + 验证 + 索引"
+license = "CC-BY-SA-4.0"
+repository = "https://github.com/Ixecd/Feelings-Patterns"
+authors = ["qc <Ixecd>"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+hex = "0.4"
